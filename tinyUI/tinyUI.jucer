@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="oUUm2L" name="tinyUI" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="oU7J2Z" name="tinyUI">
+    <GROUP id="{3738DACC-BF49-7186-978B-9E0A89A323A0}" name="Source">
+      <FILE id="IEISxh" name="CompressorValueInfo.cpp" compile="1" resource="0"
+            file="Source/CompressorValueInfo.cpp"/>
+      <FILE id="djyc3h" name="CompressorValueInfo.h" compile="0" resource="0"
+            file="Source/CompressorValueInfo.h"/>
+      <FILE id="sW6xkf" name="ArialRoundedBold.ttf" compile="0" resource="1"
+            file="Source/ArialRoundedBold.ttf"/>
+      <FILE id="zYjOjg" name="customKnobContainer.cpp" compile="1" resource="0"
+            file="Source/customKnobContainer.cpp"/>
+      <FILE id="MydRsT" name="customKnobContainer.h" compile="0" resource="0"
+            file="Source/customKnobContainer.h"/>
+      <FILE id="GH7rgY" name="myVectorKnob.cpp" compile="1" resource="0"
+            file="Source/myVectorKnob.cpp"/>
+      <FILE id="SOcdkz" name="myVectorKnob.hpp" compile="0" resource="0"
+            file="Source/myVectorKnob.hpp"/>
+      <FILE id="EQxl6x" name="tinyCompression.cpp" compile="1" resource="0"
+            file="Source/tinyCompression.cpp"/>
+      <FILE id="T4joKr" name="tinyCompression.h" compile="0" resource="0"
+            file="Source/tinyCompression.h"/>
+      <FILE id="dymH4T" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Peue0K" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="iZSW4Z" name="knobsvg.svg" compile="0" resource="1" file="Source/knobsvg.svg"/>
+      <FILE id="YvxZjW" name="knobIndicator.svg" compile="0" resource="1"
+            file="Source/knobIndicator.svg"/>
+      <FILE id="HqUECO" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="kL1MQQ" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="QqndHh" name="bg.svg" compile="0" resource="1" file="Source/bg.svg"/>
+    <FILE id="vQmnMB" name="screenOverlay.svg" compile="0" resource="1"
+          file="Source/screenOverlay.svg"/>
+    <FILE id="Hfxzs1" name="screenSVG.svg" compile="0" resource="1" file="Source/screenSVG.svg"/>
+    <FILE id="hWtuSg" name="vectorScreenDisplay.cpp" compile="1" resource="0"
+          file="Source/vectorScreenDisplay.cpp"/>
+    <FILE id="FL5GdJ" name="vectorScreenDisplay.h" compile="0" resource="0"
+          file="Source/vectorScreenDisplay.h"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="tinyUI"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="tinyUI"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
