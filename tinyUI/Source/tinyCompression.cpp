@@ -75,9 +75,7 @@ float TinyCompressor::atodb(float a)
 
 std::vector<float> TinyCompressor::process(std::vector<float>& signal, int channels, int sampleRate)
 {
-    //i dont think my dsp is objectively wrong just did not convert to dB so it is scaling stuff
-    //inappropriately which is leading to distortion for various reasons.
-    //also potentially some rounding issues
+
     
     float level{0.0};
     for(int i = 0; i < channels; i++)
